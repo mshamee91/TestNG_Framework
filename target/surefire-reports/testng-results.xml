@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="55568" started-at="2022-07-26T20:26:02 IST" finished-at="2022-07-26T20:26:58 IST">
+    <groups>
+      <group name="LoginGroup">
+        <method signature="LoginTest.Login(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="Login" class="com.qa.test.LoginTest"/>
+      </group> <!-- LoginGroup -->
+      <group name="DummyGroup">
+        <method signature="LoginTest.Dummy()[pri:1, instance:com.qa.test.LoginTest@57855c9a]" name="Dummy" class="com.qa.test.LoginTest"/>
+      </group> <!-- DummyGroup -->
+    </groups>
+    <test name="Testing" duration-ms="55568" started-at="2022-07-26T20:26:02 IST" finished-at="2022-07-26T20:26:58 IST">
+      <class name="com.qa.test.LoginTest">
+        <test-method status="PASS" signature="initProperties()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="initProperties" is-config="true" duration-ms="14" started-at="2022-07-26T20:26:02 IST" finished-at="2022-07-26T20:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="setUp" is-config="true" duration-ms="27737" started-at="2022-07-26T20:26:02 IST" finished-at="2022-07-26T20:26:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="setPage" is-config="true" duration-ms="50" started-at="2022-07-26T20:26:30 IST" finished-at="2022-07-26T20:26:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="Login(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="Login" duration-ms="18384" started-at="2022-07-26T20:26:30 IST" description="Login method description" data-provider="TestData" finished-at="2022-07-26T20:26:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cucumberpractice00@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[practice00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="tearDown" is-config="true" duration-ms="822" started-at="2022-07-26T20:26:48 IST" finished-at="2022-07-26T20:26:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="setUp" is-config="true" duration-ms="7083" started-at="2022-07-26T20:26:49 IST" finished-at="2022-07-26T20:26:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Dummy()[pri:1, instance:com.qa.test.LoginTest@57855c9a]" name="Dummy" duration-ms="1" started-at="2022-07-26T20:26:56 IST" description="Dummy description" finished-at="2022-07-26T20:26:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dummy -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="setPage" is-config="true" duration-ms="0" started-at="2022-07-26T20:26:56 IST" finished-at="2022-07-26T20:26:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1450" started-at="2022-07-26T20:26:56 IST" finished-at="2022-07-26T20:26:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.LoginTest -->
+    </test> <!-- Testing -->
+  </suite> <!-- TestSuite -->
+</testng-results>

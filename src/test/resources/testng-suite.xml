@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<!-- <groups>
+		<run>
+			<include name="DummyGroup" />
+		</run>
+	</groups> -->
+	<listeners>
+		<listener class-name="com.qa.util.TestListener" />
+		<listener class-name="com.qa.util.Transformer" />
+	</listeners>
+
+	<!-- <test name="Testing" parallel="methods" thread-count="2"> -->
+	<test name="Testing">
+		<classes>
+			<class name="com.qa.test.LoginTest" />
+			<!-- <methods> <include name="LoginMethod" /> </methods> -->
+
+		</classes>
+	</test>
+</suite>
